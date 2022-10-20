@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "reagila2022Native",
-    "slug": "reagila2022Native",
+    "name": "Reagila",
+    "slug": "Reagila",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -18,7 +18,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jaroslav.huss.Reagila"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0432df4c-114b-4c7b-97b8-367ea428828a"
+      }
     }
   }
 }
